@@ -20,7 +20,7 @@ function start() {
     export OPENWEATHER_API_KEY=${API_KEY}
 
     killall conky &> /dev/null
-    cd /home/$(whoami)/.conky/Clock-With-Weather-Conky || true
+    cd /home/$(whoami)/.config/conky/Clock-With-Weather-Conky || true
     nohup /usr/bin/conky -c app.cfg >/dev/null 2>&1 </dev/null &
     cd - || true
 }
