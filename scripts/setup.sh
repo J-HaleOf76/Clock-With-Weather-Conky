@@ -64,7 +64,7 @@ DEFAULT_WINDOW_POSITION_X="$(      [[ -n "${ARG_WINDOW_POSITION_X}" ]]       && 
 DEFAULT_WINDOW_POSITION_Y="$(      [[ -n "${ARG_WINDOW_POSITION_Y}" ]]       && echo "${ARG_WINDOW_POSITION_Y}"      || echo "0" )"
 
 REPO="Clock-With-Weather-Conky"
-BASE_DIR="/home/$(whoami)/.conky"
+BASE_DIR="/home/$(whoami)/.config/conky"
 
 DEFAULT_THEME_LUA='
 local settings = {}
