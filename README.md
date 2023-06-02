@@ -1,3 +1,5 @@
+### Alot of redirects needed to make this work the way that I need it.
+
 # Conky widget with clock and current weather report
 
 [![Version](https://img.shields.io/badge/dynamic/json.svg?label=version&url=https://api.github.com/repos/takattila/Clock-With-Weather-Conky/releases/latest&query=tag_name)](https://github.com/takattila/Clock-With-Weather-Conky/releases)
